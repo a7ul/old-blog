@@ -2,7 +2,7 @@
 layout: post
 title: 'When VR and Web come together ! - Web VR and AFrame'
 date: '2016-04-05 10:00:37 +0530'
-categories: web
+categories: blog
 ---
 
 **WebVR** is an experimental Javascript API that provides access to Virtual Reality devices, such as the Oculus Rift or Google Cardboard, in your browser. The API is in `Editor's Draft` stage as of today.
