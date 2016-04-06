@@ -65,6 +65,9 @@ Now lets add a box
   <a-box color="#E45334" width="2" height="2" depth="2"></a-box>
 </a-scene>
 {% endhighlight %}
+<br/>
+_**open this webpage in your phone to experience the VR example below**_
+<br/><br/>
 
 <iframe style="width: 100%; height: 500px" src="https://embed.plnkr.co/30486SppK0q1WWBxU0QS/" frameborder="0" allowfullscren="allowfullscren"></iframe>
 
