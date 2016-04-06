@@ -8,6 +8,7 @@ categories: web
 **WebVR** is an experimental Javascript API that provides access to Virtual Reality devices, such as the Oculus Rift or Google Cardboard, in your browser. The API is in `Editor's Draft` stage as of today.
 
 # Supported Browsers:
+---------------------
 - Firefox nightly builds with an Oculus Rift enabler installed
 - experimental builds of Chrome.
 
@@ -18,6 +19,7 @@ categories: web
 So, Lets get started !
 
 # Initial setup
+----------------
 Easiest way to setup the project is to include the following scripts in the head of the document.
 
 {% highlight html %}
@@ -40,10 +42,12 @@ and then do
 
 `require('aframe')`
 
+This will add the polyfill for a-frame to work.
+
 Now lets do some hello world ....
 
 # Hello World !
-
+----------------
 Most of the code we write will be HTML markups
 
 To start with we need to create a blank scene
@@ -58,15 +62,46 @@ Now lets add a box
 
 {% highlight html %}
 <a-scene>
-  <a-box color="#E45334" width="4" height="10" depth="2"></a-box>
+  <a-box color="#E45334" width="2" height="2" depth="2"></a-box>
 </a-scene>
 {% endhighlight %}
 
 <iframe style="width: 100%; height: 500px" src="https://embed.plnkr.co/30486SppK0q1WWBxU0QS/" frameborder="0" allowfullscren="allowfullscren"></iframe>
 
-#### Try pressing W A S D keys to navigate in the scene.
+##### Try pressing W A S D keys to navigate in the scene.
 
-------------------------------------------------
+<br/>
+**Transformation** of an entity is achieved by attributes position,rotation and scale similar to that of WebGL.
+
+each of these attributes accept a string in the format "X Y Z".
+
+For example position="25 10 12" means position of the entity is 25units on x-axis , 10units on y-axis and 12units on z-axis
+
+{% highlight html %}
+<a-scene>
+  <a-box color="#E45334" width="2" height="2" depth="2" position="0 1 1" scale="0.5 1 0.5" rotation="40 20 20"></a-box>
+</a-scene>
+{% endhighlight %}
+
+<iframe style="width: 100%; height: 500px" src="https://embed.plnkr.co/8eoDsRpiqbXKdgbt8LJQ?p=preview/" frameborder="0" allowfullscren="allowfullscren"></iframe>
+
+# Testing the scene
+-------------
+
+To test the scene using google cardboard.
+Load up your deployed app/example on a mobile browser.
+
+I am trying it out on an android phone.
+Make sure you have installed the google cardboard app on your phone.
+
+Then click on the VR goggles icon on the bottom right.
+The scene should load up in the cardboard viewer.
 
 
-Check out the `https://aframe.io/faq/` for more info on how to get the most out of Aframe.
+I hope the Web VR kicks off really well. This could potentially lead to really neat user interfaces in the web.
+
+
+# More details
+--------
+
+Check out `http://aframe.io` and `https://aframe.io/faq/` for more info on how to get the most out of Aframe.
