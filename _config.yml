@@ -14,6 +14,10 @@ baseurl: "/blog-atul" # the subpath of your site, e.g. /blog
 url: "http://atulr.com" # the base hostname & protocol for your site
 twitter_username: atulanand94
 github_username:  master-atul
+author: atul
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-seo-tag
