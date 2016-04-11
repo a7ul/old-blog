@@ -16,8 +16,12 @@ twitter_username: atulanand94
 github_username:  master-atul
 author: atul
 
+paginate: 10
+paginate_path: "/page:num"
+
 # Build settings
 markdown: kramdown
 
 gems:
   - jekyll-seo-tag
+  - jekyll-paginate
