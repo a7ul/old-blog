@@ -1,0 +1,50 @@
+---
+layout: post
+title: 'Adding USB Charger to your bike - Duke 200 USB Charger'
+date: '2016-04-24 10:00:37 +0530'
+categories: bike
+rearImage1: '/assets/Duke200/rear-seat1.jpg'
+rearImage2: '/assets/Duke200/rear-seat2.jpg'
+---
+
+**Duke 200** is my first bike and it has everything i need. I have been riding it for nearly a year now.
+
+But being very terrible with directions , I always needed my phone to navigate. Unfortunately this means that my phone battery will drain
+very fast because i am using GPS most of the time.
+
+Now being a techie/engineer , I thought it would be a good idea to get a **USB charger** for my bike.
+So i bought one from ebay.
+The one i bought was : _[Link](http://www.ebay.in/itm/262358501111?ssPageName=STRK:MEWNX:IT&_trksid=p3984.m1497.l2649){:target="_blank"}_
+
+The requirements are as follows:
+
+- Input : 12V - 14V DC
+- Output : 5V DC
+
+This is because for most of the bikes, The battery output is 12V , while our mobile phones are suited to charge at 5V.
+So make sure you check the specs before buying.
+
+Now, next thing we need (although not a necessity) is a **fuse** of similar ratings. This is because I couldnt simply trust a USB charger from an unknown vendor and risk a short circuit on my other bike electronic components.
+
+So i got one from amazon : _[Link](http://www.amazon.in/Generic-Inline-Holder-Motorcycle-Motorbike/dp/B01AG94WYY?ie=UTF8&psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00){:target="_blank"}_
+
+Lets me walk you through how i installed it on my bike.
+
+- ***Locating an empty port to plugin you USB Charger.***
+
+Now the basic requirement is that the port we need should be active only when the bike is turned on. Otherwise there will be continuous flow of current from the battery to the charger even when bike is off.
+
+
+After reading many blogs, i came to know that there are few open ports near the headlamp assembly of the bike. But to access those i would have to open up the headlamp. I wasn't very comfortable to open up the parts myself. So i decided to find another port.
+After few hours of searching, i finally found a port below the rear seat cover. This port was perfect because it used to be active only when the bike is keyed in and turned on.
+
+You can see the port in these pictures:
+<img src="{{page.rearImage1}}" />
+<img src="{{page.rearImage2}}" />
+
+
+**Credits**:
+
+I took the images for illustrations from :
+
+  - Motoroids and theautomotiveindia.com

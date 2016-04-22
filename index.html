@@ -8,9 +8,10 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts limit 4 %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-        {{ post.content | strip_html | truncatewords:75}}<br>
-            <a href="{{ site.baseurl }}{{ post.url }}">Read more...</a><br><br>
+    <li><span class="post-date">{{ post.date | date_to_string }}</span> &raquo; <a class="post-heading-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <br><br>{{ post.content | strip_html | truncatewords:75}}<br>
+            <a class="post-readmore" href="{{ site.baseurl }}{{ post.url }}">Read more...</a><br><br>
+    </li>
     {% endfor %}
   </ul>
 
