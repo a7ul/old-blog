@@ -1,10 +1,8 @@
 ---
 layout: post
 title: 'Adding USB Charger to your bike - Duke 200 USB Charger'
-date: '2016-04-24 10:00:37 +0530'
+date: '2017-04-22 10:00:37 +0530'
 categories: bike
-rearImage1: '/assets/Duke200/rear-seat1.jpg'
-rearImage2: '/assets/Duke200/rear-seat2.jpg'
 ---
 
 **Duke 200** is my first bike and it has everything i need. I have been riding it for nearly a year now.
@@ -30,7 +28,8 @@ So i got one from amazon : _[Link](http://www.amazon.in/Generic-Inline-Holder-Mo
 
 Lets me walk you through how i installed it on my bike.
 
-- ***Locating an empty port to plugin you USB Charger.***
+***Locating an empty port to plugin your new USB Charger.***
+------------
 
 Now the basic requirement is that the port we need should be active only when the bike is turned on. Otherwise there will be continuous flow of current from the battery to the charger even when bike is off.
 
@@ -38,13 +37,17 @@ Now the basic requirement is that the port we need should be active only when th
 After reading many blogs, i came to know that there are few open ports near the headlamp assembly of the bike. But to access those i would have to open up the headlamp. I wasn't very comfortable to open up the parts myself. So i decided to find another port.
 After few hours of searching, i finally found a port below the rear seat cover. This port was perfect because it used to be active only when the bike is keyed in and turned on.
 
-You can see the port in these pictures:
-<img src="{{page.rearImage1}}" />
-<img src="{{page.rearImage2}}" />
+You can see the port in the following picture:
+<div style="text-align:center">
+<img src="https://raw.githubusercontent.com/master-atul/blog-atul/master/assets/Duke200/rear-seat1.jpg" style="width: 80%;display: inline;"/>
+</div>
+<br/>
 
+
+Now , this port has a cover on it . Just slightly remove it. And you should see few pins.
 
 **Credits**:
 
 I took the images for illustrations from :
 
-  - Motoroids and theautomotiveindia.com
+  - theautomotiveindia.com
