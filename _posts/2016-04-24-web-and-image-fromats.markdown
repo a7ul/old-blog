@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Which image format is the best for web ? - Web and Images
-date: '2016-04-24 10:00:37 +0530'
+date: '2018-04-24 10:00:37 +0530'
 categories: web
 ---
 
