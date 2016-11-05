@@ -26,7 +26,7 @@ Hence, instead of spawning a new thread for every new user, node loops through e
 Take a look at the diagram below:
 
 <div style="text-align:center">
-  <img src="http://localhost:4000/blog-atul/assets/EventLoop/eventloop.png" style="width: 80%;display: inline;">
+  <img src="/assets/EventLoop/eventloop.png" style="width: 80%;display: inline;">
 </div>
 
 <br>
