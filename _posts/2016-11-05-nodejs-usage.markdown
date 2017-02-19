@@ -32,7 +32,7 @@ Take a look at the diagram below:
 <br>
 
 <div style="text-align:center">
-  <img src="/blog-atul/assets/event-loop/event-loop.png" style="width: 80%;display: inline;">
+  <img src="/blog-atul/assets/event-loop/eventloop.png" style="width: 80%;display: inline;">
 </div>
 
 <br>
