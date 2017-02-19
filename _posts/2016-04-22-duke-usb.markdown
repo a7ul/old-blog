@@ -41,7 +41,7 @@ After few hours of searching, i finally found a port below the rear seat cover. 
 
 You can see the port in the following picture:
 <div style="text-align:center">
-<img src="https://raw.githubusercontent.com/master-atul/blog-atul/master/assets/Duke200/rear-seat1.jpg" style="width: 80%;display: inline;"/>
+<img src="https://raw.githubusercontent.com/master-atul/blog-atul/master/assets/duke-200/rear-seat1.jpg" style="width: 80%;display: inline;"/>
 </div>
 <br/>
 

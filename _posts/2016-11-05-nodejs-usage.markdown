@@ -10,7 +10,7 @@ Javascript is one of my favorite languages. Its easy to learn and get started wi
 <br>
 
 <div style="text-align:center">
-  <img src="/blog-atul/assets/EventLoop/make_it_node.jpg" style="width: 40%;display: inline;">
+  <img src="/blog-atul/assets/event-loop/make_it_node.jpg" style="width: 40%;display: inline;">
 </div>
 <br>
 
@@ -32,7 +32,7 @@ Take a look at the diagram below:
 <br>
 
 <div style="text-align:center">
-  <img src="/blog-atul/assets/EventLoop/eventloop.png" style="width: 80%;display: inline;">
+  <img src="/blog-atul/assets/event-loop/event-loop.png" style="width: 80%;display: inline;">
 </div>
 
 <br>
@@ -48,7 +48,7 @@ Now, there are two types of applications based on how they behave.
 <br>
 
 <div style="text-align:center">
-  <img src="/blog-atul/assets/EventLoop/node_cpu_intensive.jpg" style="width: 40%;display: inline;">
+  <img src="/blog-atul/assets/event-loop/node_cpu_intensive.jpg" style="width: 40%;display: inline;">
 </div>
 
 <br>
@@ -75,7 +75,7 @@ As most of the web applications are not CPU intensive in nature, **Node still wi
 <br>
 
 <div style="text-align:center">
-  <img src="/blog-atul/assets/EventLoop/nodejs.gif" style="width: 40%;display: inline;">
+  <img src="/blog-atul/assets/event-loop/nodejs.gif" style="width: 40%;display: inline;">
 </div>
 
 <br>
