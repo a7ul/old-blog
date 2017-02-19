@@ -11,7 +11,7 @@ Even though its so popular, it lacks in some features that the users want.
 For example , it can be installed only on one device at a given time. But consider that many of us have two phones,
 One for business and other one for personal use. But sometimes we need to access whatsapp we need to carry both phones to the office.
 
-I figured out a hack to be able to access whatsapp on both my phones simultaneously.
+I figured out a hack for accessing whatsapp on both my phones simultaneously.
 
 <div style="color:red;font-weight:bold">Bear in mind that this is a hack and will not give you the seamless experience that you want.</div>
 If it doesn't work for you then we wait till the time whatsapp adds this functionality.
