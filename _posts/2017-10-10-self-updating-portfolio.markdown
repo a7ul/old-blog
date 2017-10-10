@@ -4,7 +4,6 @@ title: Creating a Self Updating Portfolio
 date: '2017-10-10 09:00:00 +0530'
 categories: web
 comments: true
-published: true
 
 ---
 As a developer, the best way to showcase his/her talent is via a portfolio website. Many of us want to build a "perfect" web portfolio which looks aesthetically pleasing along with showcasing our skills and work effectively.
