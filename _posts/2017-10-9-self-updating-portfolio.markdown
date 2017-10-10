@@ -18,6 +18,8 @@ But once we build our web portfolio we often forget to keep it up to date. Most 
 In the world of bots and automation, I thought why cant I come up with a website for myself that automagically updates on its own for free.
 The end goal is a magical website that somehow keeps itself updated with the latest projects that we do and it should do so without the owners manual intervention.
 
+**Live example can be seen here** : <a href="http://atulr.com">http://atulr.com</a>
+
 Before we dive in to the automation part lets first get some basics right.
 
 ## Github as a host
