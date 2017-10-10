@@ -11,7 +11,7 @@ But once we build our web portfolio we often forget to keep it up to date. Most 
 
 <br>
 <div style="text-align:center">
-  <img src="/blog-atul/assets/self_updating_portfolio/cv_start_meme.jpg" style="width: 100%;display: inline;">
+  <img src="/blog-atul/assets/self_updating_portfolio/cv_start_meme.jpg" style="width: 60%;display: inline;">
 </div>
 <br>
 
@@ -389,7 +389,7 @@ Hope this helps people create awesome automated portfolios ! Cheers 🍻 🌮
 
 <br>
 <div style="text-align:center">
-  <img src="/blog-atul/assets/self_updating_portfolio/resume_final_meme.jpg" style="width: 100%;display: inline;">
+  <img src="/blog-atul/assets/self_updating_portfolio/resume_final_meme.jpg" style="width: 60%;display: inline;">
 </div>
 <br>
 
