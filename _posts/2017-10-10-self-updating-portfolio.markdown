@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Creating a Self Updating Portfolio
-date: '2017-08-22 09:00:00 +0700'
+date: '2017-10-10 09:00:00 +0700'
 categories: web
 comments: true
-published: false
+published: true
 
 ---
 As a developer, the best way to showcase his/her talent is via a portfolio website. Many of us want to build a "perfect" web portfolio which looks aesthetically pleasing along with showcasing our skills and work effectively.
@@ -114,7 +114,7 @@ The query that I use is as follows:
 You can test this in the GraphQL explorer provided by Github.
 This helps us get all the data we need with a single API hit. 🤘🏻
 
-#### Rate Limit
+## Rate Limit
 
 But unlike me, many of you might have lots of users and lots of users mean lots of API hits. Hence, you might reach your API rate limit and new users might not be able to see anything.
 
@@ -128,16 +128,18 @@ Hence the idea is:
 - Travis will then rebuild the website and redeploy.
 
 
-### Scripts
+## Scripts
 
-#### Github API script
+### Github API script
 The Github scripts purpose would be to get all the latest projects info from your github repo and put it into a json file that we can use in the website.
 I am going to use node to write the github api script, primarily because its easy to do fetching and data transformation in node.
 
 My script looks something like this:
 
 **`projects_updater.js`**
-```js
+
+~~~js
+
 var rp = require('request-promise');
 var result = require('lodash/result');
 var each = require('lodash/each');
@@ -255,7 +257,7 @@ Promise.all(
   process.exit(-1);
 });
 
-```
+~~~
 
 To use this script, just run
 `node scripts/projects_updater.js <GITHUB_API_V4_READ_TOKEN>`
@@ -270,14 +272,15 @@ To use this script, just run
 4. Make sure you copy the token and keep it safe.
 
 
-#### Deployment script
+### Deployment script
 
 I was using webpack to build the final static asset for my website.
 I am using travis to automate the build whenever we push to the repo.
 For this I wrote a build script that needs to execute on every push to repo.
 
 **`build.sh`**
-```sh
+
+~~~sh
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
@@ -355,12 +358,12 @@ git commit -m "Commit new bundle to ${TARGET_BRANCH}"
 set -e
 git push $SSH_REPO $TARGET_BRANCH
 
-```
+~~~
 
 To run the script:
 `bash ./scripts/build.sh`
 
-In github we need to keep the final dist on the master branch of the portfolio repo.
+In github we need to keep the final dist on the `master` branch of the portfolio repo.
 So the TARGET_BRANCH is the master branch and we keep our uncompiled source code in the SOURCE_BRANCH.
 My SOURCE_BRANCH is `source`.
 
@@ -370,6 +373,11 @@ Hence, the flow is we keep our source code in SOURCE_BRANCH and keep pushing any
   <img src="/blog-atul/assets/self_updating_portfolio/travis_portfolio.png" style="width: 100%;display: inline;">
 </div>
 <br>
+
+
+Now I just need to sit back and focus on my work and my portfolio will take care of updating itself 🍷 😎
+
+Hope this helps people create awesome automated portfolios ! Cheers 🍻 🌮
 
 <br />
 <br />
@@ -384,7 +392,7 @@ Hence, the flow is we keep our source code in SOURCE_BRANCH and keep pushing any
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 /*
 var disqus_config = function () {
-this.page.url= http://www.atulr.com/blog-atul/web/2017/08/25/self-updating-portfolio.html;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.url=http://www.atulr.com/blog-atul/web/2017/08/25/self-updating-portfolio.html;  // Replace PAGE_URL with your page's canonical URL variable
 this.page.identifier = SELF_UPDATING_PORTFOLIO; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 */
