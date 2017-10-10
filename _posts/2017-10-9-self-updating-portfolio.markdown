@@ -384,6 +384,8 @@ Now I just need to sit back and focus on my work and my portfolio will take care
 
 Hope this helps people create awesome automated portfolios ! Cheers 🍻 🌮
 
+**You can see the live example of this at** http://atulr.com
+
 
 <br>
 <div style="text-align:center">
