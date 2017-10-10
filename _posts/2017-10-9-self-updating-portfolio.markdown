@@ -119,7 +119,7 @@ The query that I use is as follows:
 You can test this in the GraphQL explorer provided by Github.
 This helps us get all the data we need with a single API hit. 🤘🏻
 
-## Rate Limit
+### Getting around Rate Limits on Github API
 
 But unlike me, many of you might have lots of users and lots of users mean lots of API hits. Hence, you might reach your API rate limit and new users might not be able to see anything.
 
@@ -277,7 +277,7 @@ To use this script, just run
 4. Make sure you copy the token and keep it safe.
 
 
-### Deployment script
+### Travis CI - Deployment script
 
 I was using webpack to build the final static asset for my website.
 I am using travis to automate the build whenever we push to the repo.
