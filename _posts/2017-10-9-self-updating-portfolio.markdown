@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating a Self Updating Portfolio
-date: '2017-10-10 09:00:00 +0530'
+date: '2017-10-9 09:00:00 +0530'
 categories: web
 comments: true
 
@@ -404,7 +404,7 @@ Hope this helps people create awesome automated portfolios ! Cheers 🍻 🌮
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 /*
 var disqus_config = function () {
-this.page.url=http://www.atulr.com/blog-atul/web/2017/08/25/self-updating-portfolio.html;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.url=http://www.atulr.com/blog-atul/web/2017/10/9/self-updating-portfolio.html;  // Replace PAGE_URL with your page's canonical URL variable
 this.page.identifier = SELF_UPDATING_PORTFOLIO; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 */
