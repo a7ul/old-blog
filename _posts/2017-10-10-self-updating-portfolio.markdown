@@ -10,6 +10,12 @@ published: true
 As a developer, the best way to showcase his/her talent is via a portfolio website. Many of us want to build a "perfect" web portfolio which looks aesthetically pleasing along with showcasing our skills and work effectively.
 But once we build our web portfolio we often forget to keep it up to date. Most of us even have CVs that is not up to date for many years. This happens because in our busy lives we don't want to spend that additional time keeping our CVs/portfolios updated.
 
+<br>
+<div style="text-align:center">
+  <img src="/blog-atul/assets/self_updating_portfolio/cv_start_meme.jpg" style="width: 100%;display: inline;">
+</div>
+<br>
+
 In the world of bots and automation, I thought why cant I come up with a website for myself that automagically updates on its own for free.
 The end goal is a magical website that somehow keeps itself updated with the latest projects that we do and it should do so without the owners manual intervention.
 
@@ -378,6 +384,13 @@ Hence, the flow is we keep our source code in SOURCE_BRANCH and keep pushing any
 Now I just need to sit back and focus on my work and my portfolio will take care of updating itself 🍷 😎
 
 Hope this helps people create awesome automated portfolios ! Cheers 🍻 🌮
+
+
+<br>
+<div style="text-align:center">
+  <img src="/blog-atul/assets/self_updating_portfolio/resume_final_meme.jpg" style="width: 100%;display: inline;">
+</div>
+<br>
 
 <br />
 <br />
